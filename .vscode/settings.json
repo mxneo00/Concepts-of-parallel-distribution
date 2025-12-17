@@ -3,7 +3,8 @@
         ".",
         "Chapter1\\Excersize A",
         "Chapter3\\A",
-        "Signature"
+        "Signature",
+        "lib"
     ],
     "java.configuration.runtimes": [
         {
@@ -13,7 +14,8 @@
         }
     ],
     "java.project.referencedLibraries": [
-        "lib/**/*.jar"
+        "lib\\junit-platform-console-standalone-1.9.3.jar",
+        "c:\\Users\\llyn0\\OneDrive\\Documents\\GitHub\\Concepts-of-parallel-distribution\\lib\\junit-platform-console-standalone-1.9.3.jar"
     ],
     "java.test.config": {
         "name": "JUnit Tests",
