@@ -1,0 +1,22 @@
+{
+    "java.project.sourcePaths": [
+        ".",
+        "Chapter1\\Excersize A",
+        "Chapter3\\A",
+        "Signature"
+    ],
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-21",
+            "path": "C:\\Program Files\\Java\\jdk-21",
+            "default": true
+        }
+    ],
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar"
+    ],
+    "java.test.config": {
+        "name": "JUnit Tests",
+        "workingDirectory": "${workspaceFolder}/Signature"
+    }
+}

@@ -1,11 +1,8 @@
-
 import java.io.BufferedReader;
 import java.io.DataOutputStream;
 import java.io.InputStreamReader;
 import java.net.ServerSocket;
 import java.net.Socket;
-import java.util.Random;
-import static Signature.Message.changeMessage;
 
 public class TelephoneGame {
     public static void main(String[] args) throws Exception {
@@ -43,7 +40,7 @@ public class TelephoneGame {
             serverSocket.close();
         }
 
-        String newMessage = changeMessage(message);
+        String newMessage = Message.changeMessage(message);
 
         if (role != 'E') {
             System.out.println("Sending modified message to computer " + (char)(role+1) + " : " + newMessage);
